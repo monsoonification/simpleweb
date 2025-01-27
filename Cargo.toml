@@ -1,0 +1,11 @@
+[package]
+name = "simple-log"
+version = "0.1.0"
+
+[dependencies.nickel]
+
+git = "https://github.com/nickel-org/nickel.rs.git"
+
+[[bin]]
+name = "the_milker"
+path = "src/web_main.rs"
