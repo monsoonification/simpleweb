@@ -4,8 +4,8 @@ use std::io;
 
 
 fn log_something(filename: &'static str, string: &'static [u8; 12]) -> io::Result<()> {
-    let mut f = try!(File::create(filename));
-    try!(f.write_all(string));
+    let mut f = File::create(filename)?;
+    (f.write_all(string))?;
     Ok(())
 }
 

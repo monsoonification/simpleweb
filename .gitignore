@@ -5,3 +5,5 @@ target/
 # The presence of Cargo.lock depends on whether this is a binary or a library
 # Libraries typically don't include Cargo.lock in version control
 Cargo.lock
+
+log.txt
